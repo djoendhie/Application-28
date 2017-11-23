@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8523E39FB9C6114034D950DF /* Pods_Papua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F2FBD5C3E703F04B0BE914 /* Pods_Papua.framework */; };
+		D6336D461FC6CA1D00A0CE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D451FC6CA1D00A0CE9B /* AppDelegate.swift */; };
+		D6336D481FC6CA1D00A0CE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D471FC6CA1D00A0CE9B /* ViewController.swift */; };
+		D6336D4B1FC6CA1D00A0CE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6336D491FC6CA1D00A0CE9B /* Main.storyboard */; };
+		D6336D4D1FC6CA1D00A0CE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6336D4C1FC6CA1D00A0CE9B /* Assets.xcassets */; };
+		D6336D501FC6CA1D00A0CE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6336D4E1FC6CA1D00A0CE9B /* LaunchScreen.storyboard */; };
+		D6336D5B1FC6CA1E00A0CE9B /* PapuaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D5A1FC6CA1E00A0CE9B /* PapuaTests.swift */; };
+		D6336D661FC6CA1E00A0CE9B /* PapuaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D651FC6CA1E00A0CE9B /* PapuaUITests.swift */; };
+		D6336D741FC6CB6300A0CE9B /* ResepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D731FC6CB6300A0CE9B /* ResepTableViewCell.swift */; };
+		D6336D761FC6CB7100A0CE9B /* ResepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D751FC6CB7100A0CE9B /* ResepTableViewController.swift */; };
+		D6336D781FC6CB8000A0CE9B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6336D771FC6CB8000A0CE9B /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6336D571FC6CA1D00A0CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6336D3A1FC6CA1D00A0CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6336D411FC6CA1D00A0CE9B;
+			remoteInfo = Papua;
+		};
+		D6336D621FC6CA1E00A0CE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6336D3A1FC6CA1D00A0CE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6336D411FC6CA1D00A0CE9B;
+			remoteInfo = Papua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F2FBD5C3E703F04B0BE914 /* Pods_Papua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Papua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E8145DCFADDACC93DC2691 /* Pods-Papua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papua.release.xcconfig"; path = "Pods/Target Support Files/Pods-Papua/Pods-Papua.release.xcconfig"; sourceTree = "<group>"; };
+		552766F73C6D0E1AF7799C5F /* Pods-Papua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Papua.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Papua/Pods-Papua.debug.xcconfig"; sourceTree = "<group>"; };
+		70864F40D12AF785B3E00660 /* Pods_PapuaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PapuaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C984BF60EDDD696B376F5A5F /* Pods_PapuaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PapuaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336D421FC6CA1D00A0CE9B /* Papua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Papua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336D451FC6CA1D00A0CE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6336D471FC6CA1D00A0CE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6336D4A1FC6CA1D00A0CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6336D4C1FC6CA1D00A0CE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6336D4F1FC6CA1D00A0CE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6336D511FC6CA1D00A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336D561FC6CA1D00A0CE9B /* PapuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336D5A1FC6CA1E00A0CE9B /* PapuaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapuaTests.swift; sourceTree = "<group>"; };
+		D6336D5C1FC6CA1E00A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336D611FC6CA1E00A0CE9B /* PapuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PapuaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6336D651FC6CA1E00A0CE9B /* PapuaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapuaUITests.swift; sourceTree = "<group>"; };
+		D6336D671FC6CA1E00A0CE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6336D731FC6CB6300A0CE9B /* ResepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewCell.swift; sourceTree = "<group>"; };
+		D6336D751FC6CB7100A0CE9B /* ResepTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResepTableViewController.swift; sourceTree = "<group>"; };
+		D6336D771FC6CB8000A0CE9B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6336D3F1FC6CA1D00A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8523E39FB9C6114034D950DF /* Pods_Papua.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D531FC6CA1D00A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D5E1FC6CA1E00A0CE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41377AFDAED6184925BE9F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11F2FBD5C3E703F04B0BE914 /* Pods_Papua.framework */,
+				C984BF60EDDD696B376F5A5F /* Pods_PapuaTests.framework */,
+				70864F40D12AF785B3E00660 /* Pods_PapuaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DED8F53E02CDD23131ACC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				552766F73C6D0E1AF7799C5F /* Pods-Papua.debug.xcconfig */,
+				27E8145DCFADDACC93DC2691 /* Pods-Papua.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6336D391FC6CA1D00A0CE9B = {
+			isa = PBXGroup;
+			children = (
+				D6336D441FC6CA1D00A0CE9B /* Papua */,
+				D6336D591FC6CA1D00A0CE9B /* PapuaTests */,
+				D6336D641FC6CA1E00A0CE9B /* PapuaUITests */,
+				D6336D431FC6CA1D00A0CE9B /* Products */,
+				84DED8F53E02CDD23131ACC3 /* Pods */,
+				41377AFDAED6184925BE9F12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6336D431FC6CA1D00A0CE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D421FC6CA1D00A0CE9B /* Papua.app */,
+				D6336D561FC6CA1D00A0CE9B /* PapuaTests.xctest */,
+				D6336D611FC6CA1E00A0CE9B /* PapuaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6336D441FC6CA1D00A0CE9B /* Papua */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D451FC6CA1D00A0CE9B /* AppDelegate.swift */,
+				D6336D471FC6CA1D00A0CE9B /* ViewController.swift */,
+				D6336D491FC6CA1D00A0CE9B /* Main.storyboard */,
+				D6336D4C1FC6CA1D00A0CE9B /* Assets.xcassets */,
+				D6336D4E1FC6CA1D00A0CE9B /* LaunchScreen.storyboard */,
+				D6336D511FC6CA1D00A0CE9B /* Info.plist */,
+				D6336D731FC6CB6300A0CE9B /* ResepTableViewCell.swift */,
+				D6336D751FC6CB7100A0CE9B /* ResepTableViewController.swift */,
+				D6336D771FC6CB8000A0CE9B /* DetailViewController.swift */,
+			);
+			path = Papua;
+			sourceTree = "<group>";
+		};
+		D6336D591FC6CA1D00A0CE9B /* PapuaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D5A1FC6CA1E00A0CE9B /* PapuaTests.swift */,
+				D6336D5C1FC6CA1E00A0CE9B /* Info.plist */,
+			);
+			path = PapuaTests;
+			sourceTree = "<group>";
+		};
+		D6336D641FC6CA1E00A0CE9B /* PapuaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6336D651FC6CA1E00A0CE9B /* PapuaUITests.swift */,
+				D6336D671FC6CA1E00A0CE9B /* Info.plist */,
+			);
+			path = PapuaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6336D411FC6CA1D00A0CE9B /* Papua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336D6A1FC6CA1E00A0CE9B /* Build configuration list for PBXNativeTarget "Papua" */;
+			buildPhases = (
+				57DA305979FF8ED07478DDEF /* [CP] Check Pods Manifest.lock */,
+				D6336D3E1FC6CA1D00A0CE9B /* Sources */,
+				D6336D3F1FC6CA1D00A0CE9B /* Frameworks */,
+				D6336D401FC6CA1D00A0CE9B /* Resources */,
+				B9FC987C1629CCD40AB70FC7 /* [CP] Embed Pods Frameworks */,
+				86C66B8080CC5481E800C15A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Papua;
+			productName = Papua;
+			productReference = D6336D421FC6CA1D00A0CE9B /* Papua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6336D551FC6CA1D00A0CE9B /* PapuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336D6D1FC6CA1E00A0CE9B /* Build configuration list for PBXNativeTarget "PapuaTests" */;
+			buildPhases = (
+				D6336D521FC6CA1D00A0CE9B /* Sources */,
+				D6336D531FC6CA1D00A0CE9B /* Frameworks */,
+				D6336D541FC6CA1D00A0CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6336D581FC6CA1D00A0CE9B /* PBXTargetDependency */,
+			);
+			name = PapuaTests;
+			productName = PapuaTests;
+			productReference = D6336D561FC6CA1D00A0CE9B /* PapuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6336D601FC6CA1E00A0CE9B /* PapuaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6336D701FC6CA1E00A0CE9B /* Build configuration list for PBXNativeTarget "PapuaUITests" */;
+			buildPhases = (
+				D6336D5D1FC6CA1E00A0CE9B /* Sources */,
+				D6336D5E1FC6CA1E00A0CE9B /* Frameworks */,
+				D6336D5F1FC6CA1E00A0CE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6336D631FC6CA1E00A0CE9B /* PBXTargetDependency */,
+			);
+			name = PapuaUITests;
+			productName = PapuaUITests;
+			productReference = D6336D611FC6CA1E00A0CE9B /* PapuaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6336D3A1FC6CA1D00A0CE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Djoendhie;
+				TargetAttributes = {
+					D6336D411FC6CA1D00A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D6336D551FC6CA1D00A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6336D411FC6CA1D00A0CE9B;
+					};
+					D6336D601FC6CA1E00A0CE9B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6336D411FC6CA1D00A0CE9B;
+					};
+				};
+			};
+			buildConfigurationList = D6336D3D1FC6CA1D00A0CE9B /* Build configuration list for PBXProject "Papua" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6336D391FC6CA1D00A0CE9B;
+			productRefGroup = D6336D431FC6CA1D00A0CE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6336D411FC6CA1D00A0CE9B /* Papua */,
+				D6336D551FC6CA1D00A0CE9B /* PapuaTests */,
+				D6336D601FC6CA1E00A0CE9B /* PapuaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6336D401FC6CA1D00A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D501FC6CA1D00A0CE9B /* LaunchScreen.storyboard in Resources */,
+				D6336D4D1FC6CA1D00A0CE9B /* Assets.xcassets in Resources */,
+				D6336D4B1FC6CA1D00A0CE9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D541FC6CA1D00A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D5F1FC6CA1E00A0CE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57DA305979FF8ED07478DDEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Papua-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86C66B8080CC5481E800C15A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Papua/Pods-Papua-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FC987C1629CCD40AB70FC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Papua/Pods-Papua-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Papua/Pods-Papua-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6336D3E1FC6CA1D00A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D481FC6CA1D00A0CE9B /* ViewController.swift in Sources */,
+				D6336D461FC6CA1D00A0CE9B /* AppDelegate.swift in Sources */,
+				D6336D781FC6CB8000A0CE9B /* DetailViewController.swift in Sources */,
+				D6336D741FC6CB6300A0CE9B /* ResepTableViewCell.swift in Sources */,
+				D6336D761FC6CB7100A0CE9B /* ResepTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D521FC6CA1D00A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D5B1FC6CA1E00A0CE9B /* PapuaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6336D5D1FC6CA1E00A0CE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6336D661FC6CA1E00A0CE9B /* PapuaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6336D581FC6CA1D00A0CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6336D411FC6CA1D00A0CE9B /* Papua */;
+			targetProxy = D6336D571FC6CA1D00A0CE9B /* PBXContainerItemProxy */;
+		};
+		D6336D631FC6CA1E00A0CE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6336D411FC6CA1D00A0CE9B /* Papua */;
+			targetProxy = D6336D621FC6CA1E00A0CE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6336D491FC6CA1D00A0CE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6336D4A1FC6CA1D00A0CE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6336D4E1FC6CA1D00A0CE9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6336D4F1FC6CA1D00A0CE9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6336D681FC6CA1E00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6336D691FC6CA1E00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6336D6B1FC6CA1E00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552766F73C6D0E1AF7799C5F /* Pods-Papua.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Papua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Papua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6336D6C1FC6CA1E00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E8145DCFADDACC93DC2691 /* Pods-Papua.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Papua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.Papua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6336D6E1FC6CA1E00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papua.app/Papua";
+			};
+			name = Debug;
+		};
+		D6336D6F1FC6CA1E00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapuaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Papua.app/Papua";
+			};
+			name = Release;
+		};
+		D6336D711FC6CA1E00A0CE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapuaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Papua;
+			};
+			name = Debug;
+		};
+		D6336D721FC6CA1E00A0CE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PapuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Djoe.PapuaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Papua;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6336D3D1FC6CA1D00A0CE9B /* Build configuration list for PBXProject "Papua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D681FC6CA1E00A0CE9B /* Debug */,
+				D6336D691FC6CA1E00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336D6A1FC6CA1E00A0CE9B /* Build configuration list for PBXNativeTarget "Papua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D6B1FC6CA1E00A0CE9B /* Debug */,
+				D6336D6C1FC6CA1E00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336D6D1FC6CA1E00A0CE9B /* Build configuration list for PBXNativeTarget "PapuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D6E1FC6CA1E00A0CE9B /* Debug */,
+				D6336D6F1FC6CA1E00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6336D701FC6CA1E00A0CE9B /* Build configuration list for PBXNativeTarget "PapuaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6336D711FC6CA1E00A0CE9B /* Debug */,
+				D6336D721FC6CA1E00A0CE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6336D3A1FC6CA1D00A0CE9B /* Project object */;
+}
