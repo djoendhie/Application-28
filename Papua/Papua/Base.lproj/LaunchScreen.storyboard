@@ -31,10 +31,10 @@
                                     <constraint firstAttribute="width" secondItem="0Wt-X6-oC4" secondAttribute="height" multiplier="75:44" id="u8U-L4-Ja9"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="esv-dk-Fap">
-                                <rect key="frame" x="127" y="467" width="121" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="esv-dk-Fap">
+                                <rect key="frame" x="127" y="440" width="121" height="103"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="Ysv-Up-BRa"/>
+                                    <constraint firstAttribute="width" constant="121" id="MeX-hd-8Uw"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resep Masakan Sumatera Utara" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFw-Es-m7H">
@@ -49,22 +49,24 @@
                             <constraint firstItem="lFw-Es-m7H" firstAttribute="top" secondItem="0Wt-X6-oC4" secondAttribute="bottom" constant="1" id="3y3-xM-e3y"/>
                             <constraint firstItem="lFw-Es-m7H" firstAttribute="centerX" secondItem="esv-dk-Fap" secondAttribute="centerX" id="JGS-JG-KH6"/>
                             <constraint firstItem="0Wt-X6-oC4" firstAttribute="width" secondItem="0Wt-X6-oC4" secondAttribute="height" multiplier="75:44" id="My5-Q7-CJf"/>
+                            <constraint firstItem="esv-dk-Fap" firstAttribute="top" secondItem="lFw-Es-m7H" secondAttribute="bottom" constant="125" id="PHK-uy-gH7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="esv-dk-Fap" secondAttribute="bottom" constant="124" id="T3p-nf-kNz"/>
                             <constraint firstItem="0Wt-X6-oC4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="49" id="bRi-1V-yme"/>
                             <constraint firstItem="lFw-Es-m7H" firstAttribute="centerX" secondItem="0Wt-X6-oC4" secondAttribute="centerX" id="g1q-Vt-RbN"/>
                             <constraint firstItem="esv-dk-Fap" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="qjY-ot-ATU"/>
                             <constraint firstItem="esv-dk-Fap" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sCd-Nf-cHO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="esv-dk-Fap" secondAttribute="bottom" constant="124" id="umJ-Ge-vTU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="225" height="225"/>
         <image name="images" width="341" height="148"/>
-        <image name="images-1" width="225" height="225"/>
     </resources>
 </document>
